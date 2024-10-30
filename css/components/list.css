@@ -1,0 +1,16 @@
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+}
+.list-inline li {
+    display: inline-block;
+    padding: 10px;
+}
+.list-inline li img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain; /* Ensure the image fits within the specified dimensions */
+}
